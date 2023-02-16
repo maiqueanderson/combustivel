@@ -1,5 +1,12 @@
+#titulo{
+    color: green;
+}
+
 #formulario{
     font-style: normal;
     font-family: Verdana;
+    color: aliceblue;
+    background-color: green;
+    width: 50%;
 
 }
