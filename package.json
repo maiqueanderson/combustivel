@@ -1,0 +1,27 @@
+{
+  "name": "combustivel",
+  "version": "1.0.0",
+  "description": "a website / app that will calculate for the user which is the best fuel to use in his car, Alcohol or Gasoline. Using HTML, JavaScript and CSS languages",
+  "main": "src/combustivel.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiqueanderson/combustivel.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Maique Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiqueanderson/combustivel/issues"
+  },
+  "homepage": "https://github.com/maiqueanderson/combustivel#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
