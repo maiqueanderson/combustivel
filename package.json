@@ -4,6 +4,7 @@
   "description": "a website / app that will calculate for the user which is the best fuel to use in his car, Alcohol or Gasoline. Using HTML, JavaScript and CSS languages",
   "main": "src/combustivel.html",
   "scripts": {
+    "start": "npx live-server src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
