@@ -14,10 +14,10 @@ function calculo(){
     const contaAlcool = Valcool / Malcool;
 
     if(contaGasolina < contaAlcool){
-        const resultado = "É melhor abastecer com Gasolina"
+        const resultado = "É mais barato abastecer com Gasolina"
         document.getElementById("result").innerHTML = resultado;
     }else{
-        const resultado = "É melhor abastecer com Alcool"
+        const resultado = "É mais barato abastecer com Álcool"
         document.getElementById("result").innerHTML = resultado;
     }
    

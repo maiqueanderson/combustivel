@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studion</title>
+    <meta name="viewport" content="width=device-width, initial -scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cálculo de Combusivel</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hello World</h5>
-    <h6>Hello World</h6>
+    <header class="container">
+        <!-- <img class="topo__image" src="./images/HEADER-IMAGE-2.png" /> -->
+
+        <div class="topo__content">
+
+
     
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ipsum distinctio? Officia libero, aliquid rem debitis labore molestiae earum ullam deserunt ipsa dicta. Minima totam facilis hic, molestias quidem omnis.</p>
-  </body>
+
+            <div class="logo">
+                <h1 class="logo__name">CÁLCULO</h1>
+                <h2 class="logo__subtitle">DE COMBUSTÍVEL</h2>
+            </div>
+
+            <p>Que tal saber de uma forma mais objetiva
+                qual o melhor combustivel para se usar
+                em seu veículo?<br><br>
+
+                Faça agora o cálculo de Álcool vs Gasolina</p>
+               
+        </div>
+
+       
+
+
+    </header>
+
+    <main class="container form">
+        <div class="formulario container">
+            <div class="formulario__image">
+
+            </div>
+            <div class="formulario__counter" style="display: grid;">
+
+                Consumo por Km rodado na Gasolina: <input id="mediaGasolina"><br><br>
+                Consumo por Km rodado no Álcool: <input id="mediaAlcool"><br><br>
+                Valor da Gasolina: <input id="valorGasolina"><br><br>
+                Valor do Álcool: <input id="valorAlcool"><br><br>
+                <p>* Por favor Inserir valores com (.) ao invés de (,) Ex: 5.33</p>
+                <button type="button" onclick="calculo()">Cálcular</button>
+                <p id="result"></p>
+
+                <script src="app.js"></script>
+            </div>
+
+        </div>
+    </main>
+
 </body>
+
 </html>
-
-
- 
