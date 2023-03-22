@@ -72,12 +72,12 @@ body {
 
 .topo__content p {
     position: absolute;
-    top: 6.25rem;
+    top: 12.25rem;
     text-align: center;
-   margin: 20px -2vw;
-    max-width: 50ch;
+   margin: 0 20px;
+   max-width: 50ch;
    color: #09502c;
-    padding: 100px 50px;
+   padding: 0;
 
 }
 
@@ -101,7 +101,7 @@ body {
 .formulario {
     
   
-    margin: 20px 0;
+    margin: 40px 0;
     padding: 40px;
     
     border-radius: 1rem;
@@ -114,6 +114,7 @@ body {
 .formulario__counter input{
     background-color: unset;
     border-radius: 20px;
+    height: 30px;
     
 
 }

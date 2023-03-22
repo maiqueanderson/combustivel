@@ -2,8 +2,8 @@ function calculo(){
 
     const gasolinaDigitada = document.getElementById("mediaGasolina").value;
     const alcoolDigitado = document.getElementById("mediaAlcool").value;
-    const Mgasolina = parseInt(gasolinaDigitada);
-    const Malcool = parseInt(alcoolDigitado);
+    const Mgasolina = parseFloat(gasolinaDigitada);
+    const Malcool = parseFloat(alcoolDigitado);
 
     const valorGasolina = document.getElementById("valorGasolina").value
     const valorAlcool = document.getElementById("valorAlcool").value
